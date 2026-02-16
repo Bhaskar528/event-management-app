@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+nav {
+  background: #1e293b;
+  padding: 15px;
+}
+
+nav a {
+  color: black;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #2563eb;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+.filter-box {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-box input,
+.filter-box select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.filter-box button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
